@@ -73,7 +73,7 @@ docker build -t pascal .
 ### 2️⃣ Запускаем контейнер
 docker run --rm pascal
 ## 🧹 Флаг --rm автоматически удаляет контейнер после завершения — порядок должен быть во всём ✨
-#🌟 Результат
+# 🌟 Результат
 В консоли появляется тёплое приветствие:
 <img width="640" height="37" alt="pascal2" src="https://github.com/user-attachments/assets/8ff53199-e985-4470-bd66-3ea594fe083f" />
 
