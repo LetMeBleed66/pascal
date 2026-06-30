@@ -11,8 +11,8 @@
 
 ## 📁 Структура проекта
 pascal-app/
-├── Dockerfile # рецепт для контейнера
-└── hello.pas # наш Pascal-код
+├── Dockerfile
+└── hello.pas
 
 ## 📄 Содержимое файлов
 
