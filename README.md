@@ -50,11 +50,12 @@ RUN	компилируем программу
 CMD	запускаем её при старте контейнера
 ```
 📝 Файл hello.pas
-
+```
 program Hello;
 begin
   Writeln('Hello from Pascal in Docker! 🐳');
 end.
+```
 
 💬 Пояснение:
 ```
@@ -64,15 +65,15 @@ Writeln(...)	выводим сообщение в консоль
 end.	программа завершена ✅
 ```
 🚀 Сборка и запуск
-1️⃣ Собираем образ
+### 1️⃣ Собираем образ
 В терминале, находясь в папке pascal-app, выполняем:
 docker build -t pascal .
 <img width="1149" height="393" alt="pascal1" src="https://github.com/user-attachments/assets/9fee4bfa-3f7a-4ad6-a941-9cb69feaa7f7" />
 
-2️⃣ Запускаем контейнер
+### 2️⃣ Запускаем контейнер
 docker run --rm pascal
-🧹 Флаг --rm автоматически удаляет контейнер после завершения — порядок должен быть во всём ✨
-🌟 Результат
+## 🧹 Флаг --rm автоматически удаляет контейнер после завершения — порядок должен быть во всём ✨
+#🌟 Результат
 В консоли появляется тёплое приветствие:
 <img width="640" height="37" alt="pascal2" src="https://github.com/user-attachments/assets/8ff53199-e985-4470-bd66-3ea594fe083f" />
 
